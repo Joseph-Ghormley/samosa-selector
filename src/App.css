@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background-color: #242424;
+  color: white;
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+
+.App h1,
+.App h2 {
+  color: white;
+}
+
+.samosa {
+  height: 15em;
+  padding: 1.5em;
+  margin: 0 auto;
+  display: block;
+}
