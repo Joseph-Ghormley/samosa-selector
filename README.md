@@ -1,16 +1,47 @@
-# React + Vite
+# Samosa Selector
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Submitted by: Joseph Ghormley
 
-Currently, two official plugins are available:
+Samosa Selector is a React app where users click a samosa to increase their samosa count. Users can purchase upgrades that increase the number of samosas earned per click.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Time spent: 2 hours spent in total
 
-## React Compiler
+## Required Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The following required functionality is completed:
 
-## Expanding the ESLint configuration
+- [x] The user can click the samosa to increase the counter
+- [x] The counter uses React state with `useState`
+- [x] The app has a multiplier that changes how many samosas are added per click
+- [x] The app has three upgrade options:
+  - Double Stuffed
+  - Party Pack
+  - Full Feast
+- [x] Each upgrade button checks whether the user has enough samosas before applying the upgrade
+- [x] Upgrade buttons increase the multiplier
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Stretch Features
+
+The following stretch features are implemented:
+
+- [x] The user loses samosas from their total count after purchasing an upgrade
+- [x] The samosa grows when hovered over
+- [x] The samosa shrinks when clicked to create a pulse effect
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+![Video Walkthrough](walkthrough.gif)
+
+GIF created with ScreenToGif.
+
+## Notes
+
+This project helped me practice React state, event handling, and CSS hover/active effects. The main challenge was making sure the project files saved correctly while moving between computers. Another challenge was making sure the samosa image loaded properly, so I used a local image in the `public` folder.
+
+## License
+
+Copyright 2026 Joseph Ghormley
+
+Licensed under the Apache License, Version 2.0.
